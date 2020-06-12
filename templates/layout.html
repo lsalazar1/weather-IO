@@ -2,6 +2,10 @@
 <html>
     <head>
         <title>WeatherFriendly.io</title>
+        <meta charset="utf-8">
+        
+        <!-- FontAwesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sh384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
         <!-- Bootstrap CDN -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -11,6 +15,7 @@
     </head>
 
     <body>
+        {% include 'includes/_navbar.html' %}
         <div class="container">
             {% block body %}
             {% endblock %}    
