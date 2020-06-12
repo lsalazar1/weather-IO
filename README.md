@@ -1,4 +1,4 @@
-# WeatherMe.io by Liam Salazar
+# WeatherFriendly.io by Liam Salazar
 
 ## Objective
 Create a device that will capture environment data and display data on a web application.
